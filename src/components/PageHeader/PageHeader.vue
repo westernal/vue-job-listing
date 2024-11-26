@@ -7,6 +7,5 @@
       <RouterLink to="/about">Jobs</RouterLink>
       <RouterLink to="/about">Add Job</RouterLink>
     </nav>
-    <RouterView />
   </header>
 </template>
