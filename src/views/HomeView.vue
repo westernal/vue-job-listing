@@ -1,5 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import BooksList from '@/components/BooksList/BooksList.vue'
+import SearchInput from '@/components/SearchInput/SearchInput.vue'
+</script>
 
 <template>
-  <main></main>
+  <main>
+    <SearchInput />
+    <BooksList />
+  </main>
 </template>
